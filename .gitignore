@@ -1,0 +1,18 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Local MCP config holds a live token — commit the sanitized example instead
+.mcp.json
+!.mcp.json.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generated output
+out.jpg
+*.out.jpg

@@ -1,0 +1,199 @@
+{
+  "story_slug": "pepper-runs-off",
+  "story_title": "Pepper Runs Off",
+  "target_level": "beginner",
+  "language": "en",
+  "total_scenes": 13,
+  "scenes": [
+    {
+      "index": 1,
+      "role": "cover",
+      "panel_type": "establishing",
+      "text": "Mia and Sam loved Saturdays. On Saturdays they went to the market with their puppy, Pepper. Pepper was small and brown, with floppy ears and a bright red collar.",
+      "char_count": 161,
+      "scene": "sunny outdoor market",
+      "characters": [
+        "Mia",
+        "Sam",
+        "Pepper"
+      ],
+      "mood": "warm, cheerful",
+      "dominant_action": "Mia and Sam walk toward a sunny market with their small brown puppy Pepper on a red leash, his tail wagging."
+    },
+    {
+      "index": 2,
+      "role": "body",
+      "panel_type": "establishing",
+      "text": "The market was busy and loud. People talked and laughed. There were flowers, fish, and warm bread. Pepper sniffed everything. His little tail would not stop wagging.",
+      "char_count": 165,
+      "scene": "busy market square",
+      "characters": [
+        "Mia",
+        "Sam",
+        "Pepper"
+      ],
+      "mood": "lively, curious",
+      "dominant_action": "The bustling market square with flower, fish, and bread stalls; Pepper sniffs everything, his little tail wagging."
+    },
+    {
+      "index": 3,
+      "role": "body",
+      "panel_type": "reaction",
+      "text": "Mia held the leash tight. \"Stay close, Pepper,\" she said. Sam giggled. \"He wants to see it all!\"",
+      "char_count": 96,
+      "scene": "busy market square",
+      "characters": [
+        "Mia",
+        "Sam",
+        "Pepper"
+      ],
+      "mood": "playful, warm",
+      "dominant_action": "Mia holds Pepper's red leash tightly while Sam laughs beside her; Pepper looks eager to explore everything."
+    },
+    {
+      "index": 4,
+      "role": "body",
+      "panel_type": "action",
+      "text": "Then a yellow butterfly flew past Pepper's nose. Pepper jumped. He pulled hard. The leash slipped right out of Mia's hand.",
+      "char_count": 122,
+      "scene": "busy market square",
+      "characters": [
+        "Mia",
+        "Pepper"
+      ],
+      "mood": "sudden, surprise",
+      "dominant_action": "A yellow butterfly flits past Pepper's nose; he lunges after it and the red leash slips from Mia's hand."
+    },
+    {
+      "index": 5,
+      "role": "body",
+      "panel_type": "action",
+      "text": "\"Pepper, wait!\" Mia called. But Pepper ran into the crowd. In one blink, he was gone.",
+      "char_count": 85,
+      "scene": "crowded market",
+      "characters": [
+        "Mia",
+        "Pepper"
+      ],
+      "mood": "alarm, urgency",
+      "dominant_action": "Pepper dashes away into the crowd and disappears as Mia reaches out after him."
+    },
+    {
+      "index": 6,
+      "role": "body",
+      "panel_type": "reaction",
+      "text": "Sam's eyes went wide. \"Where did he go?\" Mia took his hand. \"Don't worry,\" she said. \"We will find him. Let's look together.\"",
+      "char_count": 125,
+      "scene": "crowded market",
+      "characters": [
+        "Mia",
+        "Sam"
+      ],
+      "mood": "worried, reassuring",
+      "dominant_action": "Sam looks frightened with wide eyes; Mia kneels and takes his hand, calmly reassuring him they will search together."
+    },
+    {
+      "index": 7,
+      "role": "body",
+      "panel_type": "establishing",
+      "text": "First they ran to the flower cart. The flowers smelled sweet. A lady was selling red roses. But there was no little puppy here.",
+      "char_count": 127,
+      "scene": "flower cart",
+      "characters": [
+        "Mia",
+        "Sam"
+      ],
+      "mood": "hopeful, searching",
+      "dominant_action": "Mia and Sam search at a colorful flower cart where a lady sells red roses; there is no puppy in sight."
+    },
+    {
+      "index": 8,
+      "role": "body",
+      "panel_type": "action",
+      "text": "Next they checked the fish stand. A big gray cat sat on a box. The cat hissed. Sam jumped back. Still, no Pepper.",
+      "char_count": 113,
+      "scene": "fish stand",
+      "characters": [
+        "Mia",
+        "Sam"
+      ],
+      "mood": "tense, startled",
+      "dominant_action": "At the fish stand a big gray cat hisses from a box; Sam jumps back in surprise, and still there is no Pepper."
+    },
+    {
+      "index": 9,
+      "role": "body",
+      "panel_type": "reaction",
+      "text": "They went to the bakery last. The bread smelled warm and good. Sam's chin began to wobble. \"What if we never find him?\" he whispered.",
+      "char_count": 133,
+      "scene": "bakery stall",
+      "characters": [
+        "Mia",
+        "Sam"
+      ],
+      "mood": "sad, worried",
+      "dominant_action": "Outside a warm bakery stall, Sam's chin wobbles as he worries aloud that they might never find Pepper."
+    },
+    {
+      "index": 10,
+      "role": "body",
+      "panel_type": "action",
+      "text": "Just then, they heard it. A happy bark! \"Pepper!\" they both shouted. They followed the sound around the corner.",
+      "char_count": 111,
+      "scene": "market corner",
+      "characters": [
+        "Mia",
+        "Sam"
+      ],
+      "mood": "hopeful, excited",
+      "dominant_action": "Mia and Sam perk up at a happy bark and rush together around a market corner toward the sound."
+    },
+    {
+      "index": 11,
+      "role": "body",
+      "panel_type": "reaction",
+      "text": "A kind fruit seller was holding Pepper safe in her arms. She smiled. \"Is this your puppy? He came to say hello. I saw his red collar and waited for you.\"",
+      "char_count": 153,
+      "scene": "fruit stall",
+      "characters": [
+        "Mia",
+        "Sam",
+        "Pepper",
+        "fruit seller"
+      ],
+      "mood": "relief, warm",
+      "dominant_action": "A kind fruit seller smiles warmly, holding the safe brown puppy Pepper, his red collar showing, gently in her arms."
+    },
+    {
+      "index": 12,
+      "role": "body",
+      "panel_type": "action",
+      "text": "Mia and Sam hugged Pepper tight. Pepper licked their faces and wagged his tail. \"Thank you!\" they said to the kind lady.",
+      "char_count": 120,
+      "scene": "fruit stall",
+      "characters": [
+        "Mia",
+        "Sam",
+        "Pepper",
+        "fruit seller"
+      ],
+      "mood": "joyful, loving",
+      "dominant_action": "Mia and Sam hug Pepper tightly as he licks their faces and wags his tail; they thank the kind fruit seller."
+    },
+    {
+      "index": 13,
+      "role": "closing",
+      "panel_type": "establishing",
+      "text": "They walked home together, hand in hand, with Pepper close by. That night, Pepper curled up between them and fell fast asleep. It had been the best Saturday of all.",
+      "char_count": 164,
+      "scene": "cozy bedroom at night",
+      "characters": [
+        "Mia",
+        "Sam",
+        "Pepper"
+      ],
+      "mood": "cozy, peaceful",
+      "dominant_action": "That evening the children walk home with Pepper; that night the puppy sleeps curled up safe between them."
+    }
+  ]
+}

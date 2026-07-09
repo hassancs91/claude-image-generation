@@ -1,0 +1,24 @@
+{
+  "story_slug": "the-little-cloud",
+  "style": "warm soft watercolor children's-book illustration, gentle rounded shapes, cozy lighting",
+  "aspect_ratio": "4:5",
+  "references": [
+    { "name": "pip",        "kind": "character", "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/b532a54be6994e218c86121bbb444e72.png", "model": "vidtsx-image-02" },
+    { "name": "big-clouds", "kind": "character", "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/56a93f9f16324d219c2ccb0bae743600.png", "model": "vidtsx-image-02" },
+    { "name": "flower",     "kind": "character", "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/1587ade90acf4d16b74b10e083b91716.png", "model": "vidtsx-image-02" },
+    { "name": "sky",        "kind": "location",  "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/01456813b099466281c597caefed90bb.png", "model": "vidtsx-image-02" },
+    { "name": "meadow",     "kind": "location",  "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/f5732834575e4dc7917facf4d92fa0a5.png", "model": "vidtsx-image-02" }
+  ],
+  "shots": [
+    { "index": 1,  "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/3ae33bb38ba149c6b7e3a5c2c356d0ca.png", "model": "vidtsx-image-03", "continuity": "HARD CUT" },
+    { "index": 2,  "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/73e43ebe6ec34379a6739ec748fdc888.png", "model": "vidtsx-image-03", "continuity": "HARD CUT" },
+    { "index": 3,  "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/5bef74f1fe34498b90637f31f1e0a504.png", "model": "vidtsx-image-03", "continuity": "HARD CUT" },
+    { "index": 4,  "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/171fae7706fe4c6384fb9e3d66187795.png", "model": "vidtsx-image-03", "continuity": "SOFT CUT" },
+    { "index": 5,  "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/1386cec0fc564f2bb1960b7edacab1d8.png", "model": "vidtsx-image-03", "continuity": "HARD CUT" },
+    { "index": 6,  "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/a8ddf785154347c5b8427846c1602728.png", "model": "vidtsx-image-03", "continuity": "SOFT CUT" },
+    { "index": 7,  "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/da9b8f651ac14afea6d39704c5d7caf0.png", "model": "vidtsx-image-03", "continuity": "SOFT CUT" },
+    { "index": 8,  "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/eb7d65a39792484699d82e0dce213f4f.png", "model": "vidtsx-image-03", "continuity": "SOFT CUT" },
+    { "index": 9,  "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/b3c59e0e52eb489d9b16c3f138e7f7d8.png", "model": "vidtsx-image-03", "continuity": "STATE RESET" },
+    { "index": 10, "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/58d03151fe174d2fad5064a0eea0e826.png", "model": "vidtsx-image-03", "continuity": "SOFT CUT" }
+  ]
+}

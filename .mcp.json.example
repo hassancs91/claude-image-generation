@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "elevenlabs": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "elevenlabs-mcp"
+      ],
+      "env": {
+        "ELEVENLABS_API_KEY": "your_elevenlabs_api_key",
+        "ELEVENLABS_MCP_OUTPUT_MODE": "files",
+        "ELEVENLABS_MCP_BASE_PATH": "path/to/your/elevenlabs-audio"
+      }
+    },
+    "vidtsx": {
+      "type": "http",
+      "url": "https://learnwithhasan.com/vidtsx/mcp/key/YOUR_VIDTSX_MCP_TOKEN"
+    }
+  }
+}

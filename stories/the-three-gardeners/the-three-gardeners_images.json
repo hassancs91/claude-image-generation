@@ -1,0 +1,115 @@
+{
+  "story_slug": "the-three-gardeners",
+  "style": "warm soft watercolor children's-book illustration, gentle rounded shapes, cozy golden lighting",
+  "aspect_ratio": "4:5",
+  "references": [
+    {
+      "name": "mira",
+      "kind": "character",
+      "path": "stories/the-three-gardeners/the-three-gardeners_images/ref_mira.png",
+      "url": "https://v3b.fal.media/files/b/0a9ffc20/oB68-sKteC-SYDNVlb0J8_bN9ewMOg.png",
+      "model": "nano-banana-2"
+    },
+    {
+      "name": "theo",
+      "kind": "character",
+      "path": "stories/the-three-gardeners/the-three-gardeners_images/ref_theo.png",
+      "url": "https://v3b.fal.media/files/b/0a9ffc26/WviHER3QWUyfUgEolauly_FKtQHgeM.png",
+      "model": "nano-banana-2"
+    },
+    {
+      "name": "rosa",
+      "kind": "character",
+      "path": "stories/the-three-gardeners/the-three-gardeners_images/ref_rosa.png",
+      "url": "https://v3b.fal.media/files/b/0a9ffc30/4b6Na7Xs-Uyti3EFYJlv5_Ilaio8CX.png",
+      "model": "nano-banana-2"
+    },
+    {
+      "name": "cottage",
+      "kind": "location",
+      "path": "stories/the-three-gardeners/the-three-gardeners_images/ref_cottage.png",
+      "url": "https://v3b.fal.media/files/b/0a9ffc2a/z-EsKjsEmV-7YdOAAAUv8_KbhAmkcA.png",
+      "model": "nano-banana-2"
+    },
+    {
+      "name": "garden",
+      "kind": "location",
+      "path": "stories/the-three-gardeners/the-three-gardeners_images/ref_garden.png",
+      "url": "https://v3b.fal.media/files/b/0a9ffc34/2aG95IyVNXYqH8-pwW92T_r0VdH0d8.png",
+      "model": "nano-banana-2"
+    }
+  ],
+  "shots": [
+    {
+      "index": 1,
+      "path": "stories/the-three-gardeners/the-three-gardeners_images/part_01.png",
+      "url": "https://v3b.fal.media/files/b/0a9ffc3d/eJyaP9M_mGqeYbFIMxgTm_PqT6J7VZ.png",
+      "model": "nano-banana-pro",
+      "continuity": "HARD CUT"
+    },
+    {
+      "index": 2,
+      "path": "stories/the-three-gardeners/the-three-gardeners_images/part_02.png",
+      "url": "https://v3b.fal.media/files/b/0a9ffc51/f0izMlxhmGI7H819mGhHX_FDN5ZHmh.png",
+      "model": "nano-banana-pro",
+      "continuity": "HARD CUT"
+    },
+    {
+      "index": 3,
+      "path": "stories/the-three-gardeners/the-three-gardeners_images/part_03.png",
+      "url": "https://v3b.fal.media/files/b/0a9ffc70/JR3CzKjd_Zq-cTCrChQS8_X7AzpbLq.png",
+      "model": "nano-banana-pro",
+      "continuity": "SOFT CUT"
+    },
+    {
+      "index": 4,
+      "path": "stories/the-three-gardeners/the-three-gardeners_images/part_04.png",
+      "url": "https://v3b.fal.media/files/b/0a9ffc6b/jIUhk0VmDiMEqPVHyEJIt_VTdcdeyi.png",
+      "model": "nano-banana-pro",
+      "continuity": "SOFT CUT"
+    },
+    {
+      "index": 5,
+      "path": "stories/the-three-gardeners/the-three-gardeners_images/part_05.png",
+      "url": "https://v3b.fal.media/files/b/0a9ffc6f/ja-h78e6moq7OqySXxL1N_DfgB4rZ8.png",
+      "model": "nano-banana-pro",
+      "continuity": "SOFT CUT"
+    },
+    {
+      "index": 6,
+      "path": "stories/the-three-gardeners/the-three-gardeners_images/part_06.png",
+      "url": "https://v3b.fal.media/files/b/0a9ffc72/xDfdTw59MrbrHus9T5TNL_5b5S7Ovt.png",
+      "model": "nano-banana-pro",
+      "continuity": "SOFT CUT"
+    },
+    {
+      "index": 7,
+      "path": "stories/the-three-gardeners/the-three-gardeners_images/part_07.png",
+      "url": "https://v3b.fal.media/files/b/0a9ffc76/22Rxa27XfG0RPe0OtE8ob_Qi44NqBo.png",
+      "model": "nano-banana-pro",
+      "continuity": "SOFT CUT"
+    },
+    {
+      "index": 8,
+      "path": "stories/the-three-gardeners/the-three-gardeners_images/part_08.png",
+      "url": "https://v3b.fal.media/files/b/0a9ffc7c/gZIV6LoS1r6_FY2Kg99mU_7IHXsWUj.png",
+      "model": "nano-banana-pro",
+      "continuity": "SOFT CUT"
+    },
+    {
+      "index": 9,
+      "path": "stories/the-three-gardeners/the-three-gardeners_images/part_09.png",
+      "url": "https://v3b.fal.media/files/b/0aa18a62/7X5rOR_WGIaZCS9SAXEeX_tCRIzChi.png",
+      "model": "nano-banana-pro",
+      "continuity": "SOFT CUT",
+      "regenerated": "2026-07-09 character-consistency fix (Mira ribbons + sneakers)"
+    },
+    {
+      "index": 10,
+      "path": "stories/the-three-gardeners/the-three-gardeners_images/part_10.png",
+      "url": "https://v3b.fal.media/files/b/0a9ffc84/PElolKYpeQZsWh6SfBG_G_VmKvveeY.png",
+      "model": "nano-banana-pro",
+      "continuity": "HARD CUT"
+    }
+  ]
+}

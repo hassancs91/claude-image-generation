@@ -1,0 +1,141 @@
+{
+  "story_slug": "the-little-cloud",
+  "story_title": "The Little Cloud",
+  "target_level": "beginner",
+  "language": "en",
+  "total_scenes": 10,
+  "scenes": [
+    {
+      "index": 1,
+      "role": "cover",
+      "panel_type": "establishing",
+      "text": "High in the sky lived a little cloud named Pip. He was the smallest cloud of all.",
+      "char_count": 81,
+      "scene": "wide blue sky",
+      "characters": [
+        "Pip"
+      ],
+      "mood": "gentle, bright",
+      "dominant_action": "A tiny white cloud drifts alone, the smallest in a vast blue sky."
+    },
+    {
+      "index": 2,
+      "role": "body",
+      "panel_type": "action",
+      "text": "Every day, the big clouds made rain for the fields below. Boom! Their thunder was loud and proud.",
+      "char_count": 97,
+      "scene": "high sky",
+      "characters": [
+        "big clouds"
+      ],
+      "mood": "proud, loud",
+      "dominant_action": "Big dark clouds boom with thunder and pour rain on the fields far below."
+    },
+    {
+      "index": 3,
+      "role": "body",
+      "panel_type": "action",
+      "text": "Pip wanted to make rain too. But when he tried, only one tiny drop fell. Plip!",
+      "char_count": 78,
+      "scene": "high sky",
+      "characters": [
+        "Pip"
+      ],
+      "mood": "hopeful, trying",
+      "dominant_action": "Pip strains to make rain but only one tiny drop falls out."
+    },
+    {
+      "index": 4,
+      "role": "body",
+      "panel_type": "reaction",
+      "text": "\"You are too small,\" rumbled the big clouds. Pip felt smaller than ever.",
+      "char_count": 72,
+      "scene": "high sky",
+      "characters": [
+        "Pip",
+        "big clouds"
+      ],
+      "mood": "hurt, small",
+      "dominant_action": "The big clouds scold Pip, who shrinks and feels smaller than ever."
+    },
+    {
+      "index": 5,
+      "role": "body",
+      "panel_type": "establishing",
+      "text": "So Pip drifted away, down low over a quiet green meadow.",
+      "char_count": 56,
+      "scene": "green meadow",
+      "characters": [
+        "Pip"
+      ],
+      "mood": "quiet, lonely",
+      "dominant_action": "Pip drifts low and alone over a calm green meadow."
+    },
+    {
+      "index": 6,
+      "role": "body",
+      "panel_type": "detail",
+      "text": "There, on the dry yellow grass, was one little flower. Its petals were drooping and sad.",
+      "char_count": 88,
+      "scene": "dry meadow",
+      "characters": [
+        "the flower"
+      ],
+      "mood": "sad, wilting",
+      "dominant_action": "A single drooping flower wilts on dry yellow grass."
+    },
+    {
+      "index": 7,
+      "role": "body",
+      "panel_type": "reaction",
+      "text": "Pip looked at his one tiny drop. Maybe one drop was not so small after all.",
+      "char_count": 75,
+      "scene": "green meadow",
+      "characters": [
+        "Pip"
+      ],
+      "mood": "thoughtful, hopeful",
+      "dominant_action": "Pip studies his one tiny drop and reconsiders its worth."
+    },
+    {
+      "index": 8,
+      "role": "body",
+      "panel_type": "action",
+      "text": "He floated close and let his little drop fall. Plip! It landed right on the thirsty flower.",
+      "char_count": 91,
+      "scene": "green meadow",
+      "characters": [
+        "Pip",
+        "the flower"
+      ],
+      "mood": "tender, giving",
+      "dominant_action": "Pip floats close and lets his single drop fall onto the thirsty flower."
+    },
+    {
+      "index": 9,
+      "role": "body",
+      "panel_type": "reaction",
+      "text": "The flower lifted its head and opened bright and pink. \"Thank you, little cloud!\" it sang.",
+      "char_count": 90,
+      "scene": "green meadow",
+      "characters": [
+        "the flower"
+      ],
+      "mood": "joyful, grateful",
+      "dominant_action": "The flower lifts its head, blooms bright pink, and thanks Pip."
+    },
+    {
+      "index": 10,
+      "role": "closing",
+      "panel_type": "reaction",
+      "text": "Pip smiled the biggest smile a little cloud can smile. He was just the right size to help.",
+      "char_count": 90,
+      "scene": "green meadow",
+      "characters": [
+        "Pip"
+      ],
+      "mood": "warm, joyful",
+      "dominant_action": "Pip beams the biggest smile a little cloud can smile, just the right size to help."
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "story_slug": "the-three-gardeners",
+  "story_title": "The Three Gardeners",
+  "target_level": "beginner",
+  "language": "en",
+  "total_scenes": 10,
+  "scenes": [
+    {
+      "index": 1,
+      "role": "cover",
+      "panel_type": "establishing",
+      "text": "Mira and her little brother Theo ran up the path to Grandma Rosa's house. It was the first morning of summer. Grandma waved from the porch, her silver hair shining in the sun.",
+      "char_count": 175,
+      "scene": "cottage exterior",
+      "characters": [
+        "Mira",
+        "Theo",
+        "Grandma Rosa"
+      ],
+      "mood": "warm, happy",
+      "dominant_action": "Two children run up a sunny path toward their grandmother, who waves from her cottage porch."
+    },
+    {
+      "index": 2,
+      "role": "body",
+      "panel_type": "establishing",
+      "text": "But the garden looked sad. The sun was hot, and every flower drooped low. \"Oh dear,\" said Grandma Rosa. \"My poor garden is much too thirsty today.\"",
+      "char_count": 147,
+      "scene": "wilting garden",
+      "characters": [
+        "Grandma Rosa",
+        "Mira",
+        "Theo"
+      ],
+      "mood": "sad, concerned",
+      "dominant_action": "Grandma and the children stand over drooping, thirsty flowers in the hot sun."
+    },
+    {
+      "index": 3,
+      "role": "body",
+      "panel_type": "reaction",
+      "text": "\"We can help!\" said Mira. Theo nodded so fast his cap nearly fell off. Grandma smiled at them both. \"Then let us be three gardeners,\" she said.",
+      "char_count": 143,
+      "scene": "wilting garden",
+      "characters": [
+        "Mira",
+        "Theo",
+        "Grandma Rosa"
+      ],
+      "mood": "eager, kind",
+      "dominant_action": "Mira and Theo eagerly offer to help; Grandma smiles warmly and names them three gardeners."
+    },
+    {
+      "index": 4,
+      "role": "body",
+      "panel_type": "action",
+      "text": "Grandma found three watering cans on the shelf. A big one for her, a middle one for Mira, and a tiny one for Theo. The three of them marched to the garden together.",
+      "char_count": 164,
+      "scene": "garden",
+      "characters": [
+        "Grandma Rosa",
+        "Mira",
+        "Theo"
+      ],
+      "mood": "purposeful, cheerful",
+      "dominant_action": "Grandma hands out three watering cans of different sizes and the trio marches to the garden."
+    },
+    {
+      "index": 5,
+      "role": "body",
+      "panel_type": "action",
+      "text": "Mira filled the cans at the old blue water pump. The water splashed and sparkled. Theo laughed as the cool drops tickled his bare toes.",
+      "char_count": 135,
+      "scene": "blue water pump",
+      "characters": [
+        "Mira",
+        "Theo"
+      ],
+      "mood": "playful, splashy",
+      "dominant_action": "Mira fills the cans at an old blue pump while Theo laughs at the splashing water."
+    },
+    {
+      "index": 6,
+      "role": "body",
+      "panel_type": "action",
+      "text": "One by one, they watered the flowers. Grandma reached the tall sunflowers. Mira watered the pink roses. Theo gave the little daisies a careful drink.",
+      "char_count": 149,
+      "scene": "garden",
+      "characters": [
+        "Grandma Rosa",
+        "Mira",
+        "Theo"
+      ],
+      "mood": "busy, content",
+      "dominant_action": "The three water different flowers — Grandma the sunflowers, Mira the roses, Theo the daisies."
+    },
+    {
+      "index": 7,
+      "role": "body",
+      "panel_type": "action",
+      "text": "Then Theo tripped on a stone! His tiny can rolled away across the grass. His lip began to wobble. But Mira caught the can and handed it back. \"Good catch,\" laughed Grandma.",
+      "char_count": 172,
+      "scene": "garden",
+      "characters": [
+        "Theo",
+        "Mira",
+        "Grandma Rosa"
+      ],
+      "mood": "worried, then warm",
+      "dominant_action": "Theo trips and his can rolls away; Mira catches it and hands it back as Grandma laughs kindly."
+    },
+    {
+      "index": 8,
+      "role": "body",
+      "panel_type": "establishing",
+      "text": "By noon the whole garden was soaked and happy. The flowers lifted their heads to the sky. Bees hummed and butterflies danced above the bright petals.",
+      "char_count": 149,
+      "scene": "garden",
+      "characters": [
+        "Mira",
+        "Theo",
+        "Grandma Rosa"
+      ],
+      "mood": "happy, bright",
+      "dominant_action": "The revived garden lifts its flowers under midday sun, bees and butterflies among bright petals, the three smiling."
+    },
+    {
+      "index": 9,
+      "role": "body",
+      "panel_type": "action",
+      "text": "Then dark clouds rolled in. Pitter-patter — soft rain began to fall. \"The sky wants to help too!\" cried Mira. The three gardeners twirled and giggled in the warm rain.",
+      "char_count": 167,
+      "scene": "garden in rain",
+      "characters": [
+        "Mira",
+        "Theo",
+        "Grandma Rosa"
+      ],
+      "mood": "joyful, playful",
+      "dominant_action": "Soft rain falls and the three gardeners twirl and giggle together in the warm summer rain."
+    },
+    {
+      "index": 10,
+      "role": "closing",
+      "panel_type": "reaction",
+      "text": "That evening they sat close together on the porch with mugs of warm cocoa. The garden glowed green and golden. \"Three gardeners,\" said Grandma Rosa. \"The very best in the world.\"",
+      "char_count": 178,
+      "scene": "cottage porch at evening",
+      "characters": [
+        "Mira",
+        "Theo",
+        "Grandma Rosa"
+      ],
+      "mood": "cozy, content",
+      "dominant_action": "The three sit close on the porch at dusk with warm cocoa, the garden glowing green and golden behind them."
+    }
+  ]
+}

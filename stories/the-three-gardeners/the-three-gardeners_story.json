@@ -1,0 +1,86 @@
+{
+  "title": "The Three Gardeners",
+  "scenes": [
+    {
+      "index": 1,
+      "text": "Mira and her little brother Theo ran up the path to Grandma Rosa's house. It was the first morning of summer. Grandma waved from the porch, her silver hair shining in the sun.",
+      "scene": "cottage exterior",
+      "mood": "warm, happy",
+      "image": "the-three-gardeners_images/part_01.png",
+      "audio": "the-three-gardeners_audio/the-three-gardeners_part_01.mp3"
+    },
+    {
+      "index": 2,
+      "text": "But the garden looked sad. The sun was hot, and every flower drooped low. \"Oh dear,\" said Grandma Rosa. \"My poor garden is much too thirsty today.\"",
+      "scene": "wilting garden",
+      "mood": "sad, concerned",
+      "image": "the-three-gardeners_images/part_02.png",
+      "audio": "the-three-gardeners_audio/the-three-gardeners_part_02.mp3"
+    },
+    {
+      "index": 3,
+      "text": "\"We can help!\" said Mira. Theo nodded so fast his cap nearly fell off. Grandma smiled at them both. \"Then let us be three gardeners,\" she said.",
+      "scene": "wilting garden",
+      "mood": "eager, kind",
+      "image": "the-three-gardeners_images/part_03.png",
+      "audio": "the-three-gardeners_audio/the-three-gardeners_part_03.mp3"
+    },
+    {
+      "index": 4,
+      "text": "Grandma found three watering cans on the shelf. A big one for her, a middle one for Mira, and a tiny one for Theo. The three of them marched to the garden together.",
+      "scene": "garden",
+      "mood": "purposeful, cheerful",
+      "image": "the-three-gardeners_images/part_04.png",
+      "audio": "the-three-gardeners_audio/the-three-gardeners_part_04.mp3"
+    },
+    {
+      "index": 5,
+      "text": "Mira filled the cans at the old blue water pump. The water splashed and sparkled. Theo laughed as the cool drops tickled his bare toes.",
+      "scene": "blue water pump",
+      "mood": "playful, splashy",
+      "image": "the-three-gardeners_images/part_05.png",
+      "audio": "the-three-gardeners_audio/the-three-gardeners_part_05.mp3"
+    },
+    {
+      "index": 6,
+      "text": "One by one, they watered the flowers. Grandma reached the tall sunflowers. Mira watered the pink roses. Theo gave the little daisies a careful drink.",
+      "scene": "garden",
+      "mood": "busy, content",
+      "image": "the-three-gardeners_images/part_06.png",
+      "audio": "the-three-gardeners_audio/the-three-gardeners_part_06.mp3"
+    },
+    {
+      "index": 7,
+      "text": "Then Theo tripped on a stone! His tiny can rolled away across the grass. His lip began to wobble. But Mira caught the can and handed it back. \"Good catch,\" laughed Grandma.",
+      "scene": "garden",
+      "mood": "worried, then warm",
+      "image": "the-three-gardeners_images/part_07.png",
+      "audio": "the-three-gardeners_audio/the-three-gardeners_part_07.mp3"
+    },
+    {
+      "index": 8,
+      "text": "By noon the whole garden was soaked and happy. The flowers lifted their heads to the sky. Bees hummed and butterflies danced above the bright petals.",
+      "scene": "garden",
+      "mood": "happy, bright",
+      "image": "the-three-gardeners_images/part_08.png",
+      "audio": "the-three-gardeners_audio/the-three-gardeners_part_08.mp3"
+    },
+    {
+      "index": 9,
+      "text": "Then dark clouds rolled in. Pitter-patter — soft rain began to fall. \"The sky wants to help too!\" cried Mira. The three gardeners twirled and giggled in the warm rain.",
+      "scene": "garden in rain",
+      "mood": "joyful, playful",
+      "image": "the-three-gardeners_images/part_09.png",
+      "audio": "the-three-gardeners_audio/the-three-gardeners_part_09.mp3"
+    },
+    {
+      "index": 10,
+      "text": "That evening they sat close together on the porch with mugs of warm cocoa. The garden glowed green and golden. \"Three gardeners,\" said Grandma Rosa. \"The very best in the world.\"",
+      "scene": "cottage porch at evening",
+      "mood": "cozy, content",
+      "image": "the-three-gardeners_images/part_10.png",
+      "audio": "the-three-gardeners_audio/the-three-gardeners_part_10.mp3"
+    }
+  ],
+  "title_audio": "the-three-gardeners_audio/title.mp3"
+}

@@ -1,0 +1,28 @@
+{
+  "story_slug": "pepper-runs-off",
+  "style": "warm soft watercolor children's-book illustration, gentle rounded shapes, cozy warm lighting",
+  "aspect_ratio": "4:5",
+  "references": [
+    { "name": "mia",          "kind": "character", "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/18ac691294cc4cb78f17291bd5f49da8.png", "model": "vidtsx-image-02" },
+    { "name": "sam",          "kind": "character", "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/5ac8e0351b9644288f2dba1ad95d7b27.png", "model": "vidtsx-image-02" },
+    { "name": "pepper",       "kind": "character", "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/c6c478bbcc214d01a020f4567391329c.png", "model": "vidtsx-image-02" },
+    { "name": "fruit-seller", "kind": "character", "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/a9fa976dbfe749389560948fd9eb113d.png", "model": "vidtsx-image-02" },
+    { "name": "market-square","kind": "location",  "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/bb4b2873472649b7ab36b3f023a5f9fb.png", "model": "vidtsx-image-02" },
+    { "name": "fruit-stall",  "kind": "location",  "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/c356ee9edaae4fb9af9d7d30ed35e95b.png", "model": "vidtsx-image-02" }
+  ],
+  "shots": [
+    { "index": 1,  "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/a4f0f54060e6488398eb6555f054da6d.png", "model": "vidtsx-image-03", "continuity": "HARD CUT" },
+    { "index": 2,  "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/072076a3646e4e2fb5850f691f7eeb3b.png", "model": "vidtsx-image-03", "continuity": "SOFT CUT" },
+    { "index": 3,  "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/f307226053914d55882fa12bb2d2e0cc.png", "model": "vidtsx-image-03", "continuity": "SOFT CUT" },
+    { "index": 4,  "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/8331b219476d4f5d877328571cdfce23.png", "model": "vidtsx-image-03", "continuity": "SOFT CUT" },
+    { "index": 5,  "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/819acf141ecd496d856d4e075384b000.png", "model": "vidtsx-image-03", "continuity": "SOFT CUT" },
+    { "index": 6,  "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/441992392c5847cb90a8b5528709a03d.png", "model": "vidtsx-image-03", "continuity": "SOFT CUT" },
+    { "index": 7,  "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/5ca30452b55a4ac7a0cd400aa8857519.png", "model": "vidtsx-image-03", "continuity": "HARD CUT" },
+    { "index": 8,  "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/d07daaaa1ac24a28a2827d7e8ce14519.png", "model": "vidtsx-image-03", "continuity": "HARD CUT" },
+    { "index": 9,  "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/e53cd87d772c4378aa34beb15ea84b26.png", "model": "vidtsx-image-03", "continuity": "HARD CUT" },
+    { "index": 10, "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/7841547247a946359cd299f1c095dc0e.png", "model": "vidtsx-image-03", "continuity": "HARD CUT" },
+    { "index": 11, "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/c024b5d7f5de46c4869f5aed2a4612dd.png", "model": "vidtsx-image-03", "continuity": "HARD CUT" },
+    { "index": 12, "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/18573ab7d836450dbe1b75757537dbf8.png", "model": "vidtsx-image-03", "continuity": "SOFT CUT" },
+    { "index": 13, "url": "https://s3.powerkit.dev/learnwithhasan-files/vidtsx/generated/fce254707f1241bda7992b0daf48c054.png", "model": "vidtsx-image-03", "continuity": "HARD CUT" }
+  ]
+}

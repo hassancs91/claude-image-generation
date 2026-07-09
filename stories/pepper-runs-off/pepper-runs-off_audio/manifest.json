@@ -1,0 +1,23 @@
+{
+  "story_slug": "pepper-runs-off",
+  "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+  "voice_name": "George - Warm, Captivating Storyteller",
+  "model_id": "eleven_v3",
+  "settings": { "stability": 0.45, "style": 0.2, "use_speaker_boost": true },
+  "title_audio": { "filename": "title.mp3", "original": "Pepper Runs Off", "tagged": "[warmly] Pepper Runs Off." },
+  "parts": [
+    { "index": 1,  "filename": "pepper-runs-off_part_01.mp3", "mood": "warm, cheerful",       "original": "Mia and Sam loved Saturdays. On Saturdays they went to the market with their puppy, Pepper. Pepper was small and brown, with floppy ears and a bright red collar." },
+    { "index": 2,  "filename": "pepper-runs-off_part_02.mp3", "mood": "lively, curious",       "original": "The market was busy and loud. People talked and laughed. There were flowers, fish, and warm bread. Pepper sniffed everything. His little tail would not stop wagging." },
+    { "index": 3,  "filename": "pepper-runs-off_part_03.mp3", "mood": "playful, warm",         "original": "Mia held the leash tight. \"Stay close, Pepper,\" she said. Sam giggled. \"He wants to see it all!\"" },
+    { "index": 4,  "filename": "pepper-runs-off_part_04.mp3", "mood": "sudden, surprise",      "original": "Then a yellow butterfly flew past Pepper's nose. Pepper jumped. He pulled hard. The leash slipped right out of Mia's hand." },
+    { "index": 5,  "filename": "pepper-runs-off_part_05.mp3", "mood": "alarm, urgency",        "original": "\"Pepper, wait!\" Mia called. But Pepper ran into the crowd. In one blink, he was gone." },
+    { "index": 6,  "filename": "pepper-runs-off_part_06.mp3", "mood": "worried, reassuring",   "original": "Sam's eyes went wide. \"Where did he go?\" Mia took his hand. \"Don't worry,\" she said. \"We will find him. Let's look together.\"" },
+    { "index": 7,  "filename": "pepper-runs-off_part_07.mp3", "mood": "hopeful, searching",    "original": "First they ran to the flower cart. The flowers smelled sweet. A lady was selling red roses. But there was no little puppy here." },
+    { "index": 8,  "filename": "pepper-runs-off_part_08.mp3", "mood": "tense, startled",       "original": "Next they checked the fish stand. A big gray cat sat on a box. The cat hissed. Sam jumped back. Still, no Pepper." },
+    { "index": 9,  "filename": "pepper-runs-off_part_09.mp3", "mood": "sad, worried",          "original": "They went to the bakery last. The bread smelled warm and good. Sam's chin began to wobble. \"What if we never find him?\" he whispered." },
+    { "index": 10, "filename": "pepper-runs-off_part_10.mp3", "mood": "hopeful, excited",      "original": "Just then, they heard it. A happy bark! \"Pepper!\" they both shouted. They followed the sound around the corner." },
+    { "index": 11, "filename": "pepper-runs-off_part_11.mp3", "mood": "relief, warm",          "original": "A kind fruit seller was holding Pepper safe in her arms. She smiled. \"Is this your puppy? He came to say hello. I saw his red collar and waited for you.\"" },
+    { "index": 12, "filename": "pepper-runs-off_part_12.mp3", "mood": "joyful, loving",        "original": "Mia and Sam hugged Pepper tight. Pepper licked their faces and wagged his tail. \"Thank you!\" they said to the kind lady." },
+    { "index": 13, "filename": "pepper-runs-off_part_13.mp3", "mood": "cozy, peaceful",        "original": "They walked home together, hand in hand, with Pepper close by. That night, Pepper curled up between them and fell fast asleep. It had been the best Saturday of all." }
+  ]
+}

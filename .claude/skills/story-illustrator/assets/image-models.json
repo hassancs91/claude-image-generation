@@ -1,0 +1,45 @@
+{
+  "_comment": "Image-model registry for the story-illustrator (Fal backend). Edit this to switch the default model, tune sizes/cost, or add any other Fal model. Each model has TWO Fal endpoints: endpoint_text (text-to-image, used for reference plates with no input image) and endpoint_edit (image-to-image, used for scenes that pass reference images — that's what keeps characters consistent). fal_image.py picks the endpoint based on whether --ref was given. Prices are USD per image at the listed resolution and may drift; check fal.ai. Keys here (e.g. nano-banana-2) are the friendly names you pass to --model.",
+
+  "default": "nano-banana-2",
+  "references_model": "nano-banana-2",
+  "multi_character_model": "nano-banana-pro",
+
+  "models": {
+    "nano-banana-2": {
+      "endpoint_text": "fal-ai/nano-banana-2",
+      "endpoint_edit": "fal-ai/nano-banana-2/edit",
+      "supports_refs": true,
+      "max_refs": 4,
+      "aspect_param": "aspect_ratio",
+      "resolution": "1K",
+      "cost_per_image_usd": 0.08,
+      "label": "Nano Banana 2 (Google)",
+      "notes": "Fast and affordable. Default for reference plates and single-character scenes."
+    },
+    "nano-banana-pro": {
+      "endpoint_text": "fal-ai/nano-banana-pro",
+      "endpoint_edit": "fal-ai/nano-banana-pro/edit",
+      "supports_refs": true,
+      "max_refs": 4,
+      "aspect_param": "aspect_ratio",
+      "resolution": "1K",
+      "cost_per_image_usd": 0.15,
+      "label": "Nano Banana Pro (Gemini 3 Pro Image)",
+      "notes": "Highest fidelity and best multi-character coherence. Use for beats with 2+ characters or fine detail."
+    },
+    "seedream-4": {
+      "endpoint_text": "fal-ai/bytedance/seedream/v4/text-to-image",
+      "endpoint_edit": "fal-ai/bytedance/seedream/v4/edit",
+      "supports_refs": true,
+      "max_refs": 10,
+      "aspect_param": "image_size",
+      "image_size_long_edge": 2048,
+      "cost_per_image_usd": 0.03,
+      "label": "Seedream v4 (ByteDance)",
+      "notes": "Cheapest option and a different visual flavour. Great for testing or a non-Gemini look. Uses image_size (w,h) instead of aspect_ratio."
+    }
+  },
+
+  "supported_aspect_ratios": ["4:5", "1:1", "3:4", "2:3", "16:9", "9:16"]
+}
