@@ -1,6 +1,13 @@
 # Claude × Image Generation
 
-A hands-on repo showing how to **connect Claude to image generation** using [Claude Agent Skills](https://docs.claude.com/en/docs/claude-code/skills) — starting from zero-cost, code-only rendering and climbing up to a real diffusion model, then composing those skills into a full application: an **AI Storybook pipeline** that turns a plain-English story into an illustrated, narrated, self-contained HTML book.
+Connect Claude to image generation with [Claude Agent Skills](https://docs.claude.com/en/docs/claude-code/skills) — from zero-cost, code-only rendering up to a real diffusion model, then composed into a full app: an **AI Storybook pipeline** that turns a plain-English story into an illustrated, narrated, self-contained HTML book.
+
+<p align="center">
+  <img src="level-1-2-3-comparison/coffee-logo-prompt-to-design.png" height="250" alt="Level 1 — code-based design engine">
+  <img src="level-1-2-3-comparison/coffee-logo-3d-render.png" height="250" alt="Level 2 — Three.js 3D render">
+  <img src="level-1-2-3-comparison/coffee-logo.jpg" height="250" alt="Level 3 — diffusion model">
+</p>
+<p align="center"><em>One prompt — “a minimalist logo for a coffee shop” — rendered three ways:<br><b>Level 1</b> code-based design engine · <b>Level 2</b> Three.js 3D scene · <b>Level 3</b> diffusion model.</em></p>
 
 The through-line of every skill here is the same: **Claude does the prompt engineering and orchestration**, not just a raw API call. You describe what you want in plain language; Claude turns it into a strong prompt / scene / plan, runs the right tool, verifies the result, and hands you the file.
 
@@ -27,25 +34,53 @@ The three level skills all answer "make me an image," but trade off cost, realis
 
 > **Why levels?** Levels 1 and 2 never touch an image model — they *construct* the picture from code, so they're free, deterministic, and perfect at text and geometry. Level 3 is the "classic" approach: hand a prompt to a diffusion model. Different jobs want different levels.
 
-### See the difference — same prompt, three engines
+### Level 1 — the code-based design engine
 
-[`level-1-2-3-comparison/`](level-1-2-3-comparison/) renders one prompt (a coffee-shop logo) through all three:
+<p align="center">
+  <img src="level1-examples/synthwave_poster.png" height="240" alt="Synthwave NEON HORIZON poster">
+  <img src="level1-examples/quote_card.png" height="240" alt="Quote card — Build quietly. Let the work make the noise.">
+  <img src="level1-examples/geometric_art.png" height="240" alt="Bauhaus geometric composition">
+  <img src="level1-examples/carousel_slide.png" height="240" alt="Soft Apple-style carousel slide">
+</p>
 
-| Level 1 (design engine) | Level 2 (3D render) | Level 3 (diffusion) |
-|---|---|---|
-| [`coffee-logo-prompt-to-design.png`](level-1-2-3-comparison/coffee-logo-prompt-to-design.png) | [`coffee-logo-3d-render.png`](level-1-2-3-comparison/coffee-logo-3d-render.png) | [`coffee-logo.jpg`](level-1-2-3-comparison/coffee-logo.jpg) |
+*Everything above is drawn with math and type — no image model. Crisp text, perfect alignment, no AI artifacts.* → [`level1-examples/`](level1-examples/)
 
-### Example galleries
+### Level 2 — the Three.js 3D renderer
 
-- **Level 1** → [`level1-examples/`](level1-examples/): `synthwave_poster.png`, `geometric_art.png`, `quote_card.png`, `carousel_slide.png`
-- **Level 2** → [`level2-examples/`](level2-examples/): `headphones_apple_light_1x1.png`, `rocket_launch_station_pixar_16x9.png`, `tree_flowers_16x9.png`
-- **Level 3** → [`level3-examples/`](level3-examples/): `bookstore-cafe-rainy-evening.jpg`, `water-bottle-marble.jpg`, `ai-agents-thumbnail-bg.jpg`
+<p align="center">
+  <img src="level2-examples/rocket_launch_station_pixar_16x9.png" height="170" alt="Low-poly rocket launch station at dusk">
+  <img src="level2-examples/headphones_apple_light_1x1.png" height="170" alt="Studio-lit 3D headphones, Apple-light style">
+  <img src="level2-examples/tree_flowers_16x9.png" height="170" alt="3D tree and flowers scene">
+</p>
+
+*A real 3D scene, built in code and captured as one frame — still no image model.* → [`level2-examples/`](level2-examples/)
+
+### Level 3 — the diffusion model (Cloudflare Flux)
+
+<p align="center">
+  <img src="level3-examples/bookstore-cafe-rainy-evening.jpg" height="210" alt="Photoreal independent bookstore on a rainy evening">
+  <img src="level3-examples/water-bottle-marble.jpg" height="210" alt="Product shot — water bottle on marble">
+  <img src="level3-examples/ai-agents-thumbnail-bg.jpg" height="210" alt="Thumbnail background for an AI agents video">
+</p>
+
+*A hosted diffusion model doing what it does best — photographic and freeform looks.* → [`level3-examples/`](level3-examples/)
+
+### Same prompt, three engines
+
+[`level-1-2-3-comparison/`](level-1-2-3-comparison/) renders the coffee-shop-logo prompt through all three levels (the trio at the top of this page) — the clearest way to feel the trade-offs.
 
 ---
 
 ## Part 2 — The AI Storybook pipeline
 
 Building on the image skills, this is a small **application**: give it an English story, get back a single self-contained `.html` storybook — a swipe/tap player with one illustration and one narration clip per scene, all embedded so the file works offline and shares as-is.
+
+<p align="center">
+  <img src="stories/the-three-gardeners/the-three-gardeners_images/part_02.png" height="250" alt="Storybook scene — grandmother and children in a flower garden">
+  <img src="stories/the-three-gardeners/the-three-gardeners_images/part_05.png" height="250" alt="Storybook scene">
+  <img src="stories/the-three-gardeners/the-three-gardeners_images/part_08.png" height="250" alt="Storybook scene">
+</p>
+<p align="center"><em>Consistent, character-stable illustrations across every scene of <b>“The Three Gardeners.”</b></em></p>
 
 ```
 stories/{slug}.md
