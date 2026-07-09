@@ -17,14 +17,13 @@ your idea  →  Claude plans & prompts  →  the right generator  →  verified 
 
 ## 📖 Read the guides
 
-This repo is the companion code for a series of written tutorials on [**learnwithhasan.com**](https://learnwithhasan.com/guide/) that walk through how each piece was built:
+This repo is the companion code for a series of written tutorials on [**learnwithhasan.com**](https://learnwithhasan.com) that walk through how each piece was built:
 
 | Guide | Covers |
 |-------|--------|
 | [Generate images in Claude Code with **no AI model**](https://learnwithhasan.com/guide/claude-code-images-no-ai-model/) | **Levels 1 & 2** — the code-based design engine and the Three.js 3D renderer |
 | [**Free AI images** with Claude Code + **Cloudflare**](https://learnwithhasan.com/guide/free-ai-images-claude-code-cloudflare/) | **Level 3** — the Cloudflare Workers AI (Flux) diffusion model |
 | [**Consistent AI characters** for visual stories](https://learnwithhasan.com/guide/consistent-ai-characters-visual-stories/) | **The Storybook pipeline** — keeping characters stable across every scene |
-| [All guides →](https://learnwithhasan.com/guide/) | The full tutorial index |
 
 ## Two things this repo teaches
 
@@ -237,4 +236,4 @@ The fonts bundled in [`level-1-image-generator/fonts/`](.claude/skills/level-1-i
 
 ---
 
-Built by [Hasan Aboul Hasan](https://learnwithhasan.com) · Full tutorials at [learnwithhasan.com/guide](https://learnwithhasan.com/guide/)
+Built by [Hasan Aboul Hasan](https://learnwithhasan.com)
