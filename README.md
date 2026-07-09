@@ -15,6 +15,17 @@ The through-line of every skill here is the same: **Claude does the prompt engin
 your idea  →  Claude plans & prompts  →  the right generator  →  verified output
 ```
 
+## 📖 Read the guides
+
+This repo is the companion code for a series of written tutorials on [**learnwithhasan.com**](https://learnwithhasan.com/guide/) that walk through how each piece was built:
+
+| Guide | Covers |
+|-------|--------|
+| [Generate images in Claude Code with **no AI model**](https://learnwithhasan.com/guide/claude-code-images-no-ai-model/) | **Levels 1 & 2** — the code-based design engine and the Three.js 3D renderer |
+| [**Free AI images** with Claude Code + **Cloudflare**](https://learnwithhasan.com/guide/free-ai-images-claude-code-cloudflare/) | **Level 3** — the Cloudflare Workers AI (Flux) diffusion model |
+| [**Consistent AI characters** for visual stories](https://learnwithhasan.com/guide/consistent-ai-characters-visual-stories/) | **The Storybook pipeline** — keeping characters stable across every scene |
+| [All guides →](https://learnwithhasan.com/guide/) | The full tutorial index |
+
 ## Two things this repo teaches
 
 1. **Image generation, three ways (Levels 1–3)** — the *same* "generate an image" request, solved with three very different engines, from free-and-local to a hosted diffusion model.
@@ -33,6 +44,8 @@ The three level skills all answer "make me an image," but trade off cost, realis
 | **3** | [`level-3-image-generator/`](.claude/skills/level-3-image-generator/) | **Diffusion model** — Cloudflare Workers AI (`flux-1-schnell`). A hosted image model. | ✅ Cloudflare keys | Photographic / illustrative looks, freeform subjects, logos & icons, quick thumbnails — anything a diffusion model does well. |
 
 > **Why levels?** Levels 1 and 2 never touch an image model — they *construct* the picture from code, so they're free, deterministic, and perfect at text and geometry. Level 3 is the "classic" approach: hand a prompt to a diffusion model. Different jobs want different levels.
+>
+> 📖 Guides: [no-AI-model images (Levels 1 & 2)](https://learnwithhasan.com/guide/claude-code-images-no-ai-model/) · [free Cloudflare images (Level 3)](https://learnwithhasan.com/guide/free-ai-images-claude-code-cloudflare/)
 
 ### Level 1 — the code-based design engine
 
@@ -81,6 +94,8 @@ Building on the image skills, this is a small **application**: give it an Englis
   <img src="stories/the-three-gardeners/the-three-gardeners_images/part_08.png" height="250" alt="Storybook scene">
 </p>
 <p align="center"><em>Consistent, character-stable illustrations across every scene of <b>“The Three Gardeners.”</b></em></p>
+
+> 📖 Guide: [Consistent AI characters for visual stories](https://learnwithhasan.com/guide/consistent-ai-characters-visual-stories/) — how the illustrator keeps characters stable across scenes.
 
 ```
 stories/{slug}.md
@@ -213,3 +228,13 @@ A Claude Skill is just a folder with a `SKILL.md`. The YAML frontmatter's `descr
 ## A note on secrets
 
 Keep real keys in `.env` and `.mcp.json` only (both gitignored) — never in code or committed config. If a token ever lands in a commit, rotate it at the provider — the value stays recoverable from git history otherwise.
+
+## License
+
+Released under the [MIT License](LICENSE) © 2026 Hasan Aboul Hasan — use, adapt, and build on it freely.
+
+The fonts bundled in [`level-1-image-generator/fonts/`](.claude/skills/level-1-image-generator/fonts/) are **not** covered by MIT; each is licensed under the **SIL Open Font License 1.1**, with its own `*-OFL.txt` license file shipped alongside it.
+
+---
+
+Built by [Hasan Aboul Hasan](https://learnwithhasan.com) · Full tutorials at [learnwithhasan.com/guide](https://learnwithhasan.com/guide/)
